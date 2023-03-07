@@ -1,0 +1,43 @@
+body {
+    background-color: #232946;
+}
+
+header {
+    background-color: #b8c1ec;
+}
+
+#add-btn {
+    background-color: #B6ECC8 !important;
+}
+
+#todo-form {
+    max-width: 600px;
+}
+
+.todo-list-item {
+    --animate-duration: 0.5s;
+}
+
+.list-group-item {
+    word-break: break-all;
+}
+
+.remove-btn, .done-label {
+    cursor: pointer;
+}
+
+.remove-btn {
+    font-size: 22px;
+    padding-top: 1px;
+    width: 10px;
+}
+
+.done-label::before {
+    border: 2px solid #28a745;
+}
+
+@media(min-width:536px) {
+    #add-btn:hover {
+        border-radius: 30px;
+    }
+}
